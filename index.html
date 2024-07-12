@@ -276,7 +276,7 @@
         noFill();
         len = bands[b_id][x_ax_col].length;
 
-        sample_rate = 1 + floor(len / (100 * (glob_max_x - glob_min_x)));
+        sample_rate = 1 + floor(len / (70 * (glob_max_x - glob_min_x)));
         for (var i = 0; i < len; i += sample_rate) {
           if (isNaN(parseInt(b_id))) break;
 
